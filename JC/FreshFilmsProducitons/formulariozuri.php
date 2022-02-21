@@ -1,9 +1,4 @@
-<?php
-require('app/header.php');
-?>
-
 <div class="container mt-5">
-    <h1>Formulario</h1>
     <!--NOMBRE-->
     <!--<form class="row g-3"></form>-->
     <form class="row g-3 needs-validation" novalidate>
@@ -121,7 +116,3 @@ require('app/header.php');
         }, false);
     });
 </script>
-
-<?php
-require('app/footer.php');
-?>
