@@ -1,4 +1,4 @@
-<?php  $ruta = "http://35.181.8.108/JC/FreshFilmsProducitons"; ?>
+<?php  $ruta = "http://15.237.75.106/JC/0011BootstrapProyectAfterEffects/JC/FreshFilmsProducitons/"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,7 +35,7 @@
                 <li  class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
                 <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
-                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="<?php echo $ruta."/Vista/formulariozuri.php"?>">Registrase</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="<?php echo $ruta."Vista/formulariozuri.php"?>">Registrase</a></li>
             </ul>
         </div>
     </div>
