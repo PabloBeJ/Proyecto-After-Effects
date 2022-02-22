@@ -1,5 +1,5 @@
 <?php
-require('Vista/app/header.php');
+require('app/header.php');
 ?>
 <body>
 <div style="padding-top: 7%" class="container">
@@ -18,27 +18,27 @@ require('Vista/app/header.php');
             </thead>
             <tbody>
             <tr>
-                <td class="col-2 col-sm-2"><img src="img/inigo.jpg" alt="perfilInigo" class="img-fluid imagenesSobre rounded"></td>
+                <td class="col-2 col-sm-2"><img src="../img/inigo.jpg" alt="perfilInigo" class="img-fluid imagenesSobre rounded"></td>
                 <td>Iñigo</td>
                 <td>Zuriaga</td>
                 <td>@topo</td>
             </tr>
             <tr>
-                <td class="col-2 col-sm-2"><img src="img/pablo.jpg" alt="perfilPablo"
+                <td class="col-2 col-sm-2"><img src="../img/pablo.jpg" alt="perfilPablo"
                                                 class="img-fluid imagenesSobre rounded"></td>
                 <td>Pablo</td>
                 <td>Horcajada</td>
                 <td>@pinto</td>
             </tr>
             <tr>
-                <td class="col-2 col-sm-2"><img src="img/pabloB.jpg" alt="perfilPabloB"
+                <td class="col-2 col-sm-2"><img src="../img/pabloB.jpg" alt="perfilPabloB"
                                                 class="img-fluid imagenesSobre rounded"></td>
                 <td>Pablo</td>
                 <td>Bejar</td>
                 <td>@lux</td>
             </tr>
             <tr>
-                <td class="col-2 col-sm-2"><img src="img/sergio.jpg" alt="perfilSergio"
+                <td class="col-2 col-sm-2"><img src="../img/sergio.jpg" alt="perfilSergio"
                                                 class="img-fluid imagenesSobre rounded"></td>
                 <td>Sergio</td>
                 <td>Díaz</td>
@@ -64,5 +64,5 @@ require('Vista/app/header.php');
 </script>
 
 <?php
-require('Vista/app/footer.php');
+require('app/footer.php');
 ?>
