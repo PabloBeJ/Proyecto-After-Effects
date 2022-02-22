@@ -87,7 +87,7 @@
       </tbody>
   </table>
 <div class="container">
-    <h2>Carousel Example</h2>
+    <h2>Noticias <destacadas></destacadas></h2>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -98,22 +98,22 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="img/grabacion.jpg" class="d-block" alt="Los Angeles" style="width:100%;">
-          <div class="carousel-caption">
+          <img src="img/grabacion.jpg" class="d-block" alt="grabacion" style="width:100%;">
+          <div class="carousel-caption" style="background-color: black">
             <h3>Estudio de grabación</h3>
             <p>Aquí fue donde hicimos el rodaje</p>
           </div>
         </div>
         <div class="item">
-          <img src="img/crash.jpg" alt="Chicago" class="d-block" style="width:100%;">
-          <div class="carousel-caption">
+          <img src="img/crash.jpg" alt="inigo" class="d-block" style="width:100%;">
+          <div class="carousel-caption" style="background-color: black">
             <h3>Inigo Zuriaga</h3>
             <p>Entrevista al carismático empleado de Fresh Films Productions</p>
           </div>
         </div>
           <div class="item">
-              <img src="img/programacion.jpg" alt="Chicago" class="d-block" style="width:100%;">
-              <div class="carousel-caption">
+              <img src="img/programacion.jpg" alt="programacion" class="d-block" style="width:100%;">
+              <div class="carousel-caption" style="background-color: black">
                   <h3>Página realizada con Boostrap</h3>
                   <p>Esta página ha sido desarrollada en boostrap</p>
               </div>
