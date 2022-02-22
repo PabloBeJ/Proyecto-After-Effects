@@ -9,7 +9,10 @@
     <style>
         #map {
             height: 500px;
-            width: 100%;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     </style>
     <script>function iniciarMap(){
@@ -25,6 +28,7 @@
         }</script>
 </head>
 <body>
+    <h4>C/ de los Pirineos, 55, 28040 Madrid</h4>
     <div id="map"></div>
     <script src=""></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDohJJmi37KRYta7lXYchfd2DA7l2CcZ8s&callback=iniciarMap"></script>
