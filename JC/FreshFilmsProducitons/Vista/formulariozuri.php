@@ -2,8 +2,8 @@
 require('app/header.php');
 ?>
 
-<div class="container mt-5">
-    <h1>Formulario</h1>
+<div class="container">
+    <h1 style="margin-top: 8rem">Formulario</h1>
     <!--NOMBRE-->
     <form class="row g-3 needs-validation" novalidate>
 
@@ -27,7 +27,7 @@ require('app/header.php');
             <label for="email" class="form-label">Email</label>
             <div class="input-group">
                 <div class="input-group-text">@</div>
-                <input class="form-control" id="email" type="email" placeholder="name@example.com" required/>
+                <input class="form-control" id="email" type="email" placeholder="juan@gmail.com" required/>
             </div>
 
             <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
