@@ -1,6 +1,6 @@
+<?php  $ruta = "http://35.181.8.108/Proyecto-After-Effects/JC/JC/index.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,48 +9,40 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <LINK REL=StyleSheet HREF="css/estilo.css" TYPE="text/css" MEDIA=screen>
+        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.css" >
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-  
-    <nav class="navbar navbar-expand-lg navbar-light bg-light float-right">
-        <div class="navbark" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link" href="#">After Effects Films</a>
-              <a class="nav-item nav-link" href="#">Peliculas</a>
-              <a class="nav-item nav-link" href="#">Sobre Nosotros</a>
-            </div>
-        </div>
-        <!--Boton desplegable del menú -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+
+<!-- Navigaion-->
+<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand" href="<?php echo $ruta?>">Fresh Films Productions</a>
+        <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            Menu
+            <i class="fas fa-bars"></i>
         </button>
-    </nav> 
-  
-    <nav class=" coh-container navbar navbar-expand-lg coh-ce-cpt_header-c8275482">
-      <a href="#" class="coh-link navbar-brand js-scroll-trigger" target="_self">
-        <img class="coh-image coh-image-responsive-xl" src="img/fresh.png" alt="logo">
-      </a>
-      <button class="coh-container navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#mainnav" aria-controls="mainnav" aria-expanded="false" aria-label="Toggle Navigation">
-      </button>
-      <div class="coh-container collapse navbar-collapse" id="mainnav">
-        <ul class="coh-list-container coh-unordered-list navbar-nav ml-auto">
-          <li class="coh-list-item nav-item">
-            <a href="/about" class="coh-link anchor-white coh-instance-3944334825 coh-ce-cpt_header-41d3d0f81 coh-ce-cpt_header-41d3d0f8" target="_self">
-              <span class="coh-inline-element">About</span>
-              <span class="coh-inline-element hover-span" data-bg="rgba(1, 63, 140, 1)" style="background-color: rgb(1, 63, 140);"></span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <div class="container-fluid " >
-        <video class="justify-content-center" style="width: 80%; height: 20%;"  src="img/video.mp4" autoplay muted loop></video>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+                <li  class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">About</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#contact">Contact</a></li>
+                <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="<?php echo $ruta."Vista/formulariozuri.php"?>">Registrase</a></li>
+            </ul>
+        </div>
     </div>
+</nav>
+<!-- Navigation-->
+
+
+
+
+    <!--<div class="row d-flex justify-content-center " >
+        <video class="justify-content-center" style="width: 80%; height: 20%;"  src="img/video.mp4" autoplay muted loop></video>
+    </div>-->
       
     
     <table class="table">
