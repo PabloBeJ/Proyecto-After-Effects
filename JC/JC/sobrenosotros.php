@@ -11,7 +11,6 @@
     <LINK REL=StyleSheet HREF="css/estilo.css" TYPE="text/css" MEDIA=screen>
 
 </head>
-
 <body>
     <h1>El equipo de After Effects</h1>
     <p>Nuestro gran equipo de producción, hizo posible el corto Mandarin Revenge. Se compone de 4 jóvenes programadores
