@@ -1,22 +1,19 @@
 <?php
 require('Vista/app/header.php');
 ?>
-
-
-
     <!--<div class="row d-flex justify-content-center " >
         <video class="justify-content-center" style="width: 80%; height: 20%;"  src="img/video.mp4" autoplay muted loop></video>
     </div>-->
-      
-    
+    <div class="container">
+   <div class="table-responsive">
     <table class="table">
       <thead class="thead-dark">
           <tr>
-              <th scope="col-2">#</th>
-              <th scope="col-2">Nombre</th>
-              <th scope="col-2">Apellido</th>
-              <th scope="col-2">Usuario</th>
-              <th scope="col-4">Foto</th>
+              <th class="th-lg">#</th>
+              <th class="th-lg">Nombre</th>
+              <th class="th-lg">Apellido</th>
+              <th class="th-lg">Usuario</th>
+              <th class="th-lg">Foto</th>
           </tr>
       </thead>
       <tbody>
@@ -24,33 +21,35 @@ require('Vista/app/header.php');
               <th scope="row">1</th>
               <td>Iñigo</td>
               <td>Zuriaga</td>
-              <td>@tonto</td>
-              <td><img src="img/inigo.png" alt="perfilInigo" class="col-2"></td>
+              <td>@topoGiratorio</td>
+              <td><img src="img/inigo.png" alt="perfilInigo" class="col-4"></td>
           </tr>
           <tr>
               <th scope="row">2</th>
               <td>Pablo</td>
               <td>Horcajada</td>
               <td>@pinto</td>
-              <td><img src="img/pablo.jpg" alt="perfilPablo" class="col-2"></td>
+              <td><img src="img/pablo.jpg" alt="perfilPablo" class="col-4"></td>
           </tr>
           <tr>
               <th scope="row">3</th>
               <td>Pablo</td>
               <td>Bejar</td>
               <td>@lux</td>
-              <td><img src="img/pabloB.jpg" alt="perfilPabloB" class="col-2"></td>
+              <td><img src="img/pabloB.jpg" alt="perfilPabloB" class="col-4"></td>
           </tr>
           <tr>
               <th scope="row">3</th>
               <td>Sergio</td>
               <td>Díaz</td>
               <td>@karamba</td>
-              <td><img src="img/sergio.jpg" alt="perfilSergio" class="col-2"></td>
+              <td><img src="img/sergio.jpg" alt="perfilSergio" class="col-4"></td>
           </tr>
       </tbody>
   </table>
-<div class="container">
+   </div>
+    </div>
+    <div class="container">
     <h2>Noticias <destacadas></destacadas></h2>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
@@ -95,6 +94,7 @@ require('Vista/app/header.php');
       </a>
     </div>
   </div>
+<br>
 <?php
 require('Vista/app/footer.php');
 ?>
