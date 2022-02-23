@@ -18,7 +18,7 @@
 <body>
 
 <!-- Navigaion-->
-<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+<nav class="navegacion navbar navbar-dark bg-dark navbar-expand-lg bg-secondary text-uppercase fixed-top">
     <div class="container">
         <a class="navbar-brand" href="<?php echo $ruta?>">Fresh Films Productions</a>
         <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -132,7 +132,20 @@
     </div>
   </div>
   
-      
+      <!-- Remove the container if you want to extend the Footer to full width. -->
+<div class="container my-5">
+
+<footer class="text-center text-lg-start" style="background-color: black;">
+  <!-- Copyright -->
+  <div class="text-center text-white p-4" style="background-color: black;">
+    © 2020 Copyright:
+    <a class="text-white" href="https://www.isepceu.es/">Fresh Films Productions</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+
+</div>
+<!-- End of .container -->
     
 </body>
 
